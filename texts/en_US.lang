@@ -1,6 +1,6 @@
 ##Modifications
-action.interact.trade=§dTrade   #
-trade.trade=§dChange    #
+action.interact.trade=§d§dTrade	#
+trade.trade=§dTrade	#
 
 ##Advanchat
 accessibility.chat.tts.previousMessage=Previous Message
