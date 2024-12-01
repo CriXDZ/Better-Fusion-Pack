@@ -1,0 +1,48 @@
+/*File made by @CrisXolt.
+//(c) Don't use any UI data design without permission!*/
+{
+  "namespace": "CrisXolt_rgb_xp_level",
+
+  "experience_level":{
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [ 182, 8 ],
+    "offset": "$experience_level_offset",
+    "$text_label_control": "CrisXolt_rgb_xp_level.xp_level_label",
+    "controls": [
+      { "main@CrisXolt_rgb_label.rgb_label_panel":{ "size": [ 182, 8 ], "offset": [ 0, 0 ] } },
+      /* 4 directions about borders */
+      { "border_0@CrisXolt_rgb_xp_level.border_xp_level_label":{ "offset": [ -1, 0  ] } }, // Left
+      { "border_1@CrisXolt_rgb_xp_level.border_xp_level_label":{ "offset": [  0, -1 ] } }, // Up
+      { "border_2@CrisXolt_rgb_xp_level.border_xp_level_label":{ "offset": [  0,  1 ] } }, // Down
+      { "border_3@CrisXolt_rgb_xp_level.border_xp_level_label":{ "offset": [  1,  0 ] } }  // Right
+    ]
+  },
+
+  "xp_level_label": {
+    "type": "label",
+    "shadow": false,
+    "text": "#level_number",
+    "color": "$experience_text_color",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "layer": 4,
+    "bindings": [
+      {
+        "binding_name": "#level_number",
+        "binding_type": "global"
+      },
+      {
+        "binding_name": "#level_number_visible",
+        "binding_type": "global",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "border_xp_level_label@CrisXolt_rgb_xp_level.xp_level_label": {
+    "layer": 1,
+    "color": [ 0, 0, 0 ]
+  }
+}

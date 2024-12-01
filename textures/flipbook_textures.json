@@ -1,0 +1,158 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/furnaces/blast_furnace/blast_furnace_front_on.png",
+        "atlas_tile": "blast_furnace_front_on",
+        "ticks_per_frame": 10,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/furnaces/furnace/furnace_front_on.png",
+        "atlas_tile": "furnace_front_on",
+        "ticks_per_frame": 5,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/furnaces/smoker/smoker_front_on.png",
+        "atlas_tile": "smoker_front_on",
+        "ticks_per_frame": 5,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/endframe_top_on",
+        "atlas_tile": "endframe_top",
+        "atlas_index": 5,
+        "frames": [7, 6, 5, 4, 3, 2, 1, 0],
+        "ticks_per_frame": 1,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/endframe_side_on",
+        "atlas_tile": "endframe_side_north",
+        "atlas_index": 6,
+        "frames": [7, 6, 5, 4, 3, 2, 1, 0],
+        "ticks_per_frame": 1
+    },
+    {
+        "flipbook_texture": "textures/blocks/endframe_side_on",
+        "atlas_tile": "endframe_side_east",
+        "atlas_index": 7,
+        "frames": [7, 6, 5, 4, 3, 2, 1, 0],
+        "ticks_per_frame": 1
+    },
+    {
+        "flipbook_texture": "textures/blocks/endframe_side_on",
+        "atlas_tile": "endframe_side_south",
+        "atlas_index": 4,
+        "frames": [7, 6, 5, 4, 3, 2, 1, 0],
+        "ticks_per_frame": 1
+    },
+    {
+        "flipbook_texture": "textures/blocks/endframe_side_on",
+        "atlas_tile": "endframe_side_west",
+        "atlas_index": 5,
+        "frames": [7, 6, 5, 4, 3, 2, 1, 0],
+        "ticks_per_frame": 1
+    },
+    {
+        "flipbook_texture": "textures/blocks/copper_ore",
+        "atlas_tile": "copper_ore",
+        "ticks_per_frame": 45,
+        "frames": [3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2, 0, 3, 0, 1, 2, 1]
+    },
+    {
+        "flipbook_texture": "textures/blocks/deepslate/deepslate_copper_ore",
+        "atlas_tile": "deepslate_copper_ore",
+        "ticks_per_frame": 45,
+        "frames": [3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2, 0, 3, 0, 1, 2, 1]
+    },
+    {
+        "flipbook_texture": "textures/blocks/diamond_ore",
+        "atlas_tile": "diamond_ore",
+        "ticks_per_frame": 30,
+        "frames": [1, 0, 2, 0, 3, 0, 1, 2, 1, 3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3]
+    },
+    {
+        "flipbook_texture": "textures/blocks/deepslate/deepslate_diamond_ore",
+        "atlas_tile": "deepslate_diamond_ore",
+        "ticks_per_frame": 30,
+        "frames": [1, 0, 2, 0, 3, 0, 1, 2, 1, 3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3]
+    },
+    {
+        "flipbook_texture": "textures/blocks/emerald_ore",
+        "atlas_tile": "emerald_ore",
+        "ticks_per_frame": 35,
+        "frames": [2, 1, 3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2, 0, 3, 0, 1]
+    },
+    {
+        "flipbook_texture": "textures/blocks/deepslate/deepslate_emerald_ore",
+        "atlas_tile": "deepslate_emerald_ore",
+        "ticks_per_frame": 35,
+        "frames": [2, 1, 3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2, 0, 3, 0, 1]
+    },
+    {
+        "flipbook_texture": "textures/blocks/gold_ore",
+        "atlas_tile": "gold_ore",
+        "ticks_per_frame": 25,
+        "frames": [3, 0, 1, 2, 1, 3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2]
+    },
+    {
+        "flipbook_texture": "textures/blocks/deepslate/deepslate_gold_ore",
+        "atlas_tile": "deepslate_gold_ore",
+        "ticks_per_frame": 25,
+        "frames": [3, 0, 1, 2, 1, 3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2]
+    },
+    {
+        "flipbook_texture": "textures/blocks/nether_gold_ore",
+        "atlas_tile": "nether_gold_ore",
+        "ticks_per_frame": 25,
+        "frames": [3, 0, 1, 2, 1, 3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2]
+    },
+    {
+        "flipbook_texture": "textures/blocks/quartz_ore",
+        "atlas_tile": "quartz_ore",
+        "ticks_per_frame": 30,
+        "frames": [2, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2, 0, 3, 0, 1, 2, 1, 3, 1, 0, 2, 1]
+    },
+    {
+        "flipbook_texture": "textures/blocks/copper_ore",
+        "atlas_tile": "copper_ore",
+        "ticks_per_frame": 45,
+        "frames": [3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2, 0, 3, 0, 1, 2, 1]
+    },
+    {
+        "flipbook_texture": "textures/blocks/iron_ore",
+        "atlas_tile": "iron_ore",
+        "ticks_per_frame": 40,
+        "frames": [3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2, 0, 3, 0, 1, 2, 1]
+    },
+    {
+        "flipbook_texture": "textures/blocks/deepslate/deepslate_iron_ore",
+        "atlas_tile": "deepslate_iron_ore",
+        "ticks_per_frame": 40,
+        "frames": [3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2, 0, 3, 0, 1, 2, 1]
+    },
+    {
+        "flipbook_texture": "textures/blocks/lapis_ore",
+        "atlas_tile": "lapis_ore",
+        "ticks_per_frame": 30,
+        "frames": [3, 0, 1, 2, 1, 3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2]
+    },
+    {
+        "flipbook_texture": "textures/blocks/deepslate/deepslate_lapis_ore",
+        "atlas_tile": "deepslate_lapis_ore",
+        "ticks_per_frame": 30,
+        "frames": [3, 0, 1, 2, 1, 3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2]
+    },
+    {
+        "flipbook_texture": "textures/blocks/redstone_ore",
+        "atlas_tile": "redstone_ore",
+        "ticks_per_frame": 25,
+        "frames": [3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2, 0, 3, 0, 1, 2, 1]
+    },
+    {
+        "flipbook_texture": "textures/blocks/deepslate/deepslate_redstone_ore",
+        "atlas_tile": "deepslate_redstone_ore",
+        "ticks_per_frame": 25,
+        "frames": [3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3, 0, 1, 0, 2, 0, 3, 0, 1, 2, 1]
+    }
+]

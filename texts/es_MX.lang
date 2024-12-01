@@ -1,0 +1,78 @@
+##Modifications
+action.interact.trade=§dIntercambiar	#
+trade.trade=§dCambiar	#
+
+##Advanchat
+accessibility.chat.tts.previousMessage=Mensaje anterior
+accessibility.chat.tts.nextMessage=Siguiente mensaje
+accessibility.chat.tts.autocompleteBack=Autocompletar atrás
+accessibility.chat.tts.autocomplete=Autocompletar
+chat.title=Advanchat
+chat.title.cheats=Advanchat (comandos)
+
+## Coordinates days played
+map.position= §7[§cX= %s §7| §eY= %s §7| §bZ= %s§7]
+hudScreen.daysPlayed= §7[§6Días jugados: §a%s§r§7]
+
+## Enchantments
+enchantment.arrowDamage= §cPoder
+enchantment.arrowFire= §6Llama
+enchantment.arrowInfinite= §2Infinidad
+enchantment.arrowKnockback= §fPuñetazo
+enchantment.crossbowMultishot= §aDisparo múltiple
+enchantment.crossbowPiercing= §cPerforación
+enchantment.crossbowQuickCharge= §8Carga rápida
+enchantment.curse.binding= §cMaldición de atadura
+enchantment.curse.vanishing= §cMaldición de desaparición
+enchantment.damage.all= §4Filo
+enchantment.damage.arthropods= §8Daño de los artrópodos
+enchantment.damage.undead= §8Castigo
+enchantment.digging= §eEficiencia
+enchantment.durability= §bIrrompibilidad
+enchantment.fire= §cAspecto de fuego
+enchantment.fishingSpeed= §dSeñuelo
+enchantment.frostwalker= §bPaso helado
+enchantment.heavy_weapon.breach= §fInvasión
+enchantment.heavy_weapon.density= §aDensidad
+enchantment.heavy_weapon.windburst= §fRáfaga ventosa
+enchantment.knockback= §bEmpuje
+enchantment.level.1=§r
+enchantment.level.10=§r
+enchantment.level.2=§r
+enchantment.level.3=§r
+enchantment.level.4=§r
+enchantment.level.5=§r
+enchantment.level.6=§r
+enchantment.level.7=§r
+enchantment.level.8=§r
+enchantment.level.9=§r
+enchantment.lootBonus= §eSaqueo
+enchantment.lootBonusDigger= §aFortuna
+enchantment.lootBonusFishing= §eSuerte marina
+enchantment.mending= §aReparación
+enchantment.oxygen= §bRespiración
+enchantment.protect.all= §fProtección
+enchantment.protect.explosion= §2Protección contra explosiones
+enchantment.protect.fall= §fCaída de pluma
+enchantment.protect.fire= §cProtección contra el fuego
+enchantment.protect.projectile= §eProtección contra proyectiles
+enchantment.soul_speed= §sVelocidad de alma
+enchantment.swift_sneak= §dSigilo rápido
+enchantment.thorns= §9Espinas
+enchantment.untouching= §dToque de seda
+enchantment.waterWalker= §9Agilidad acuática
+enchantment.waterWorker= §bAfinidad al agua
+enchantment.tridentChanneling= §eCanalización
+enchantment.tridentLoyalty= §bLealtad
+enchantment.tridentRiptide= §dAguas revueltas
+enchantment.tridentImpaling= §cEmpalamiento
+
+##potions
+potion.moveSlowdown=Congelación
+potion.moveSlowdown.name=Poción de Congelación
+potion.moveSlowdown.splash.name=Poción Arrojadiza de Congelación
+potion.moveSlowdown.linger.name=Poción Persistente de Congelación
+tipped_arrow.effect.moveSlowdown=Flecha de Congelación
+
+##BetterInventory
+inv.destroy.name=§cDestruir Objetos

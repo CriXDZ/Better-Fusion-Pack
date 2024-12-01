@@ -1,0 +1,19 @@
+{
+  "namespace": "stonecutter_pocket",
+  "vertical_arrow_icon": {
+    "controls": [
+      {
+        "stonecutter_quick_craft_button@stonecutter.stonecutter_quick_craft_button": {
+          "size": [
+            28,
+            28
+          ],
+          "offset": [
+            6,
+            3
+          ]
+        }
+      }
+    ]
+  }
+}

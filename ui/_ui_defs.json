@@ -1,0 +1,23 @@
+{
+  "ui_defs": [
+    /* RGB Assets */
+    "rgb_config.json",
+    ////////*/ Common /*////////
+    "vdx/animated_rgb_ui_data/_common/label.uidx",
+    "vdx/animated_rgb_ui_data/_common/label.uidx",
+    "vdx/animated_rgb_ui_data/_common/uv.uidx",
+    ////////*/ HUD /*////////
+    "vdx/animated_rgb_ui_data/standalone_xp_bar/bar.uidx",
+    "vdx/animated_rgb_ui_data/standalone_xp_bar/level.uidx",
+    ////////*/ Advanchat /*////////
+    "ui/th3emilis/advanchat/command_block_screen.json",
+    "ui/th3emilis/advanchat/chat_screen.json",
+    "ui/th3emilis/advanchat/ui_common.json",
+    ////////*/ BetterInventory /*////////
+    "ui/.assets/.chat_tweaks",
+    "ui/.assets/.brewing_icons",
+    "ui/.assets/.brewing_guide",
+    "ui/.assets/.gamemode_switcher",
+    "ui/.assets/.pocket_warning"
+  ]
+}

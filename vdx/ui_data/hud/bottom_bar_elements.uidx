@@ -1,0 +1,41 @@
+/*File made by @CrisXolt.
+//(c) Don't use any UI data design without permission!*/
+{
+  "namespace": "hud_bottom_bar_elements_dx",
+
+  "bottom_bar_elements/xp_bar": {
+    "controls": [
+      { "experience_level@CrisXolt_rgb_xp_level.experience_level": { "layer": 8 } },
+      { "experience_bar_full@CrisXolt_rgb_xp_bar.experience_bar_background": { "layer": 5 } },
+      { "experience_bar_empty@CrisXolt_rgb_xp_bar.experience_bar_progress": { "layer": 6 } }
+    ]
+  },
+
+  "pocket_bottom_bar_elements/xp_bar": {
+    "controls": [
+      { "experience_level@CrisXolt_rgb_xp_level.experience_level": { "layer": 8 } },
+      /* Normal */
+      {
+        "normal": {
+          "type": "panel", "size": [ 182, 5 ], 
+          "bindings": [ { "binding_name": "(not #inventory_touch_button)", "binding_name_override": "#visible", "binding_type": "global" } ],
+          "controls": [
+            { "experience_bar_full@CrisXolt_rgb_xp_bar.experience_bar_background": { "layer": 5 } },
+            { "experience_bar_empty@CrisXolt_rgb_xp_bar.experience_bar_progress": { "layer": 6 } }
+          ]
+        }
+      },
+      /* Touch */
+      {
+        "touch": {
+          "type": "panel", "size": "$experience_bar_touch_size",
+          "bindings": [ { "binding_name": "(#inventory_touch_button)", "binding_name_override": "#visible", "binding_type": "global" } ],
+          "controls": [
+            { "experience_bar_full@CrisXolt_rgb_xp_bar.experience_bar_touch_background": { "layer": 5 } },
+            { "experience_bar_empty@CrisXolt_rgb_xp_bar.experience_bar_touch_progress": { "layer": 6 } }
+          ]
+        }
+      }
+    ]
+  }
+}

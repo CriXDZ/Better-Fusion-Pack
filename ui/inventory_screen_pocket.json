@@ -1,0 +1,19 @@
+{
+  "namespace": "crafting_pocket",
+  "crafting_arrow_down": {
+    "controls": [
+      {
+        "quick_craft_button@crafting.quick_craft_button": {
+          "size": [
+            30,
+            30
+          ],
+          "offset": [
+            5,
+            0
+          ]
+        }
+      }
+    ]
+  }
+}
