@@ -8,8 +8,8 @@
     }
   },
   "header": {
-    "name": "Better Fusion Pack",
-    "description": "§f- §bPack que añade nuevas mejoras al juego.\n§f- §dSígueme en GitHub: §fCriXDZ\n§f- §6Versión: §f1.1.0",
+    "name": "§6Better Fusion Pack§r",
+    "description": "§fPaquete que implementa nuevas características, agrega nuevas texturas y optimiza interfaces para una mejor experiencia de juego.\n§dSígueme en GitHub: §fCriXDZ",
     "uuid": "ed85f744-7682-4416-bfa7-ccf8cc9bd653",
     "version": [1, 0, 0],
     "min_engine_version": [1, 21, 0]
