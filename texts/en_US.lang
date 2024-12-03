@@ -2,6 +2,9 @@
 action.interact.trade=§d§dTrade	#
 trade.trade=§dTrade	#
 
+##Available Inventory Viewer
+dimzAvailableInventoryViewer.notification=§6inventory slots left
+
 ##Advanchat
 accessibility.chat.tts.previousMessage=Previous Message
 accessibility.chat.tts.nextMessage=Next Message

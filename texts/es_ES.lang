@@ -2,6 +2,9 @@
 action.interact.trade=§d§dCambiar	#
 trade.trade=§dCambiar	#
 
+##Available Inventory Viewer
+dimzAvailableInventoryViewer.notification=§6Capacidad de almacenamiento
+
 ##Advanchat
 accessibility.chat.tts.previousMessage=Mensaje anterior
 accessibility.chat.tts.nextMessage=Siguiente mensaje

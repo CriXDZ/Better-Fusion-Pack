@@ -7,10 +7,7 @@
     "type": "image",
     "anchor_from": "center",
     "anchor_to": "center",
-    "size": [
-      0,
-      0
-    ],
+    "size": [0, 0],
     "texture": "textures/ui/blank"
   },
   "hotbar_slot_image": {
@@ -34,18 +31,12 @@
       {
         "horse_jumping": {
           "type": "panel",
-          "size": [
-            "100%c",
-            5
-          ],
+          "size": ["100%c", 5],
           "controls": [
             {
               "normal": {
                 "type": "panel",
-                "size": [
-                  "100%c",
-                  5
-                ],
+                "size": ["100%c", 5],
                 "bindings": [
                   {
                     "binding_name": "(not #inventory_touch_button)",
@@ -57,16 +48,10 @@
                   {
                     "horse_jump_rend@hud.horse_jump_renderer": {
                       "ignored": false,
-                      "size": [
-                        182,
-                        5
-                      ],
+                      "size": [182, 5],
                       "anchor_from": "top_middle",
                       "anchor_to": "top_middle",
-                      "offset": [
-                        0,
-                        0
-                      ],
+                      "offset": [0, 0],
                       "layer": 7,
                       "bindings": [
                         {
@@ -79,16 +64,10 @@
                   {
                     "dash_rend@hud.dash_renderer": {
                       "ignored": false,
-                      "size": [
-                        182,
-                        5
-                      ],
+                      "size": [182, 5],
                       "anchor_from": "top_middle",
                       "anchor_to": "top_middle",
-                      "offset": [
-                        0,
-                        0
-                      ],
+                      "offset": [0, 0],
                       "layer": 7,
                       "bindings": [
                         {
@@ -104,10 +83,7 @@
             {
               "touch": {
                 "type": "panel",
-                "size": [
-                  "100%c",
-                  5
-                ],
+                "size": ["100%c", 5],
                 "bindings": [
                   {
                     "binding_name": "(#inventory_touch_button)",
@@ -119,16 +95,10 @@
                   {
                     "horse_jump_rend@hud.horse_jump_renderer": {
                       "ignored": false,
-                      "size": [
-                        202,
-                        5
-                      ],
+                      "size": [202, 5],
                       "anchor_from": "top_middle",
                       "anchor_to": "top_middle",
-                      "offset": [
-                        0,
-                        0
-                      ],
+                      "offset": [0, 0],
                       "layer": 7,
                       "bindings": [
                         {
@@ -141,16 +111,10 @@
                   {
                     "dash_rend@hud.dash_renderer": {
                       "ignored": false,
-                      "size": [
-                        202,
-                        5
-                      ],
+                      "size": [202, 5],
                       "anchor_from": "top_middle",
                       "anchor_to": "top_middle",
-                      "offset": [
-                        0,
-                        0
-                      ],
+                      "offset": [0, 0],
                       "layer": 7,
                       "bindings": [
                         {
@@ -169,10 +133,7 @@
       {
         "xp_bar": {
           "type": "panel",
-          "size": [
-            "100%c",
-            5
-          ],
+          "size": ["100%c", 5],
           "bindings": [
             {
               "binding_name": "#show_survival_ui",
@@ -183,10 +144,7 @@
             {
               "normal": {
                 "type": "panel",
-                "size": [
-                  "100%c",
-                  5
-                ],
+                "size": ["100%c", 5],
                 "bindings": [
                   {
                     "binding_name": "(not #inventory_touch_button)",
@@ -207,10 +165,7 @@
             {
               "touch": {
                 "type": "panel",
-                "size": [
-                  "100%c",
-                  5
-                ],
+                "size": ["100%c", 5],
                 "bindings": [
                   {
                     "binding_name": "(#inventory_touch_button)",
@@ -230,10 +185,7 @@
             },
             {
               "progress_text_label@CrisXolt_rgb_xp_level.experience_level": {
-                "offset": [
-                  0,
-                  -10
-                ],
+                "offset": [0, -10],
                 "layer": 7
               }
             }
@@ -242,18 +194,12 @@
       },
       {
         "hotbar@hud.hotbar_chooser": {
-          "offset": [
-            4,
-            15.5
-          ]
+          "offset": [4, 15.5]
         }
       },
       {
         "item_text_factory": {
-          "size": [
-            100,
-            10
-          ],
+          "size": [100, 10],
           "type": "factory",
           "control_ids": {
             "item_text": "@hud.item_name_text",
@@ -269,18 +215,12 @@
       {
         "horse_jumping": {
           "type": "panel",
-          "size": [
-            "100%c",
-            5
-          ],
+          "size": ["100%c", 5],
           "controls": [
             {
               "normal": {
                 "type": "panel",
-                "size": [
-                  "100%c",
-                  5
-                ],
+                "size": ["100%c", 5],
                 "anchor_from": "bottom_middle",
                 "anchor_to": "bottom_middle",
                 "bindings": [
@@ -294,16 +234,10 @@
                   {
                     "horse_jump_rend@hud.horse_jump_renderer": {
                       "ignored": false,
-                      "size": [
-                        182,
-                        5
-                      ],
+                      "size": [182, 5],
                       "anchor_from": "top_middle",
                       "anchor_to": "top_middle",
-                      "offset": [
-                        0,
-                        0
-                      ],
+                      "offset": [0, 0],
                       "layer": 7,
                       "bindings": [
                         {
@@ -316,16 +250,10 @@
                   {
                     "dash_rend@hud.dash_renderer": {
                       "ignored": false,
-                      "size": [
-                        182,
-                        5
-                      ],
+                      "size": [182, 5],
                       "anchor_from": "top_middle",
                       "anchor_to": "top_middle",
-                      "offset": [
-                        0,
-                        0
-                      ],
+                      "offset": [0, 0],
                       "layer": 7,
                       "bindings": [
                         {
@@ -341,10 +269,7 @@
             {
               "touch": {
                 "type": "panel",
-                "size": [
-                  "100%c",
-                  5
-                ],
+                "size": ["100%c", 5],
                 "bindings": [
                   {
                     "binding_name": "(#inventory_touch_button)",
@@ -356,16 +281,10 @@
                   {
                     "horse_jump_rend@hud.horse_jump_renderer": {
                       "ignored": false,
-                      "size": [
-                        202,
-                        5
-                      ],
+                      "size": [202, 5],
                       "anchor_from": "top_middle",
                       "anchor_to": "top_middle",
-                      "offset": [
-                        0,
-                        0
-                      ],
+                      "offset": [0, 0],
                       "layer": 7,
                       "bindings": [
                         {
@@ -378,16 +297,10 @@
                   {
                     "dash_rend@hud.dash_renderer": {
                       "ignored": false,
-                      "size": [
-                        202,
-                        5
-                      ],
+                      "size": [202, 5],
                       "anchor_from": "top_middle",
                       "anchor_to": "top_middle",
-                      "offset": [
-                        0,
-                        0
-                      ],
+                      "offset": [0, 0],
                       "layer": 7,
                       "bindings": [
                         {
@@ -408,10 +321,7 @@
           "type": "panel",
           "anchor_from": "bottom_middle",
           "anchor_to": "bottom_middle",
-          "size": [
-            "100%c",
-            5
-          ],
+          "size": ["100%c", 5],
           "bindings": [
             {
               "binding_name": "#show_survival_ui",
@@ -422,10 +332,7 @@
             {
               "normal": {
                 "type": "panel",
-                "size": [
-                  "100%c",
-                  5
-                ],
+                "size": ["100%c", 5],
                 "bindings": [
                   {
                     "binding_name": "(not #inventory_touch_button)",
@@ -446,10 +353,7 @@
             {
               "touch": {
                 "type": "panel",
-                "size": [
-                  "100%c",
-                  5
-                ],
+                "size": ["100%c", 5],
                 "bindings": [
                   {
                     "binding_name": "(#inventory_touch_button)",
@@ -469,10 +373,7 @@
             },
             {
               "progress_text_label@CrisXolt_rgb_xp_level.experience_level": {
-                "offset": [
-                  0,
-                  -10
-                ],
+                "offset": [0, -10],
                 "layer": 7
               }
             }
@@ -485,10 +386,7 @@
       {
         "item_text": {
           "type": "panel",
-          "offset": [
-            0,
-            0
-          ],
+          "offset": [0, 0],
           "anchor_from": "bottom_middle",
           "anchor_to": "bottom_middle",
           "use_anchored_offset": true,
@@ -504,10 +402,7 @@
           "controls": [
             {
               "item_text_factory": {
-                "size": [
-                  100,
-                  10
-                ],
+                "size": [100, 10],
                 "type": "factory",
                 "control_ids": {
                   "item_text": "@hud.item_name_text_root",
@@ -521,17 +416,25 @@
     ]
   },
   "root_panel": {
-    "$xp_control_offset|default": [
-      0,
-      -13
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "available_inventory_viewer@hud_ds-aiv.available_inventory_viewer": {}
+          },
+          {
+            "available_inventory_notification@hud_ds-aiv.available_inventory_notification": {}
+          }
+        ]
+      }
     ],
+    "$xp_control_offset|default": [0, -13],
     "variables": [
       {
         "requires": "(not $desktop_screen)",
-        "$xp_control_offset": [
-          0,
-          -13
-        ]
+        "$xp_control_offset": [0, -13]
       },
       {
         "requires": "$education_edition",

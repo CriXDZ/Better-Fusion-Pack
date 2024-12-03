@@ -1,0 +1,284 @@
+/*
+Code by @Dimzcraft.
+(c) Don't use any Code without permission
+*/
+{
+  "namespace": "hud_ds-aiv",
+  
+  "inventory_icon": {
+    "type": "image",
+    "texture": "vds/ui_texture/available_inventory_viewer/inventory_icon",
+    "size": ["100%+9px","100%+9px"],
+    "offset": [0,-0.7],
+    "layer": 5
+  },
+  
+  
+  "warning_notification_alpha_end": {
+    "anim_type": "alpha",
+    "from": 1,
+    "to": 0,
+    "duration": 0.2,
+    "easing": "linear"
+  },
+  
+  "warning_notification_alpha_wait": {
+    "$alpha_duration": 1.8,
+    "anim_type": "wait",
+    "duration": "($alpha_duration + $dimz_aiv_notification_duration)",
+    "next": "@hud_ds-aiv.warning_notification_alpha_end"
+  },
+  
+  "warning_notification_alpha_play": {
+    "anim_type": "alpha",
+    "from": 0,
+    "to": 1,
+    "duration": 0.2,
+    "easing": "linear"
+  },
+  
+  "warning_notification_offset_end": {
+    "anim_type": "offset",
+    "from": [0,5],
+    "to": [0,"-200%"],
+    "duration": 1,
+    "easing": "$dimz_aiv_notification_anims_in"
+  },
+  
+  
+  "warning_notification_offset_wait": {
+    "anim_type": "wait",
+    "duration": "(1 + $dimz_aiv_notification_duration)",
+    "next": "@hud_ds-aiv.warning_notification_offset_end"
+  },
+  
+  "warning_notification_offset_play": {
+    "anim_type": "offset",
+    "from": [0,"-200%"],
+    "to": [0,5],
+    "duration": 1,
+    "easing": "$dimz_aiv_notification_anims_out"
+  },
+  
+  
+  "warning_notification_text": {
+    "type": "label",
+    "text": "dimzAvailableInventoryViewer.notification",
+    "offset": [0.5,0.5],
+    "shadow": true,
+    "layer": 5
+  },
+  
+  "warning_notification_number": {
+    "type": "label",
+    "text": "#text",
+    "offset": [0.5,0.5],
+    "shadow": true,
+    "layer": 5,
+    "bindings": [
+      {
+        "ignored": "(not $dimz_aiv_count_hotbar)",
+        "binding_type": "view",
+        "source_control_name": "available_inventory_text",
+        "source_property_name": "('§c' + (36 - #available_inventory_current) + ' ')",
+        "target_property_name": "#text"
+      },
+      {
+        "ignored": "$dimz_aiv_count_hotbar",
+        "binding_type": "view",
+        "source_control_name": "available_inventory_text",
+        "source_property_name": "('§c' + (27 - #available_inventory_current))",
+        "target_property_name": "#text"
+      }
+    ]
+  },
+  
+  "warning_notification_panel": {
+    "type": "image",
+    "texture": "$dimz_aiv_notification_background_texture",
+    "size": "$dimz_aiv_notification_background_size",
+    "color": "$dimz_aiv_notification_background_color",
+    "alpha": "$dimz_aiv_notification_background_alpha",
+    "propagate_alpha": true,
+    "anims": [
+      "@hud_ds-aiv.warning_notification_alpha_play",
+      "@hud_ds-aiv.warning_notification_offset_play",
+      "@hud_ds-aiv.warning_notification_alpha_wait",
+      "@hud_ds-aiv.warning_notification_offset_wait"
+    ],
+    "controls": [
+      {
+        "available_inventory_warning_notification": {
+          "type": "stack_panel",
+          "size": ["100%c","100%cm"],
+          "orientation": "horizontal",
+          "controls": [
+            {
+              "icon_wrapper": {
+                "type": "panel",
+                "size": [17,17],
+                "controls": [
+                  {
+                    "icon@hud_ds-aiv.inventory_icon": {
+                      "offset": [-2,-0.7]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "padding": {
+                "type": "panel",
+                "size": [3,"100%sm"]
+              }
+            },
+            {
+              "number_wrapper": {
+                "type": "panel",
+                "size": ["100%c","100%sm"],
+                "controls": [ { "label@hud_ds-aiv.warning_notification_number": {} } ]
+              }
+            },
+            {
+              "text_wrapper": {
+                "type": "panel",
+                "size": ["100%c","100%sm"],
+                "controls": [ { "label@hud_ds-aiv.warning_notification_text": {} } ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  "available_inventory_notification": {
+    "type": "stack_panel",
+    "size": ["100%cm","100%c"],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "touch_padding": {
+          "type": "panel",
+          "size": ["100%sm",20],
+          "bindings": [
+            {
+              "binding_name": "#inventory_touch_button",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "notification_panel": {
+          "type": "collection_panel",
+          "size": ["100%cm","100%cm"],
+          "layer": 20,
+          "factory": {
+            "name": "available_inventory_notification_factory",
+            "control_name": "hud_ds-aiv.warning_notification_panel",
+            "max_children_size": 1
+          },
+          "bindings": [
+            {
+              "ignored": "(not $dimz_aiv_count_hotbar)",
+              "binding_type": "view",
+              "source_control_name": "available_inventory_text",
+              "source_property_name": "((#available_inventory_current = 36) * 1)",
+              "target_property_name": "#collection_length"
+            },
+            {
+              "ignored": "$dimz_aiv_count_hotbar",
+              "binding_type": "view",
+              "source_control_name": "available_inventory_text",
+              "source_property_name": "((#available_inventory_current = 27) * 1)",
+              "target_property_name": "#collection_length"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+  
+  "slot_items": {
+    "type": "panel",
+    "collection_index": "$id",
+    "bindings": [
+      {
+        "binding_name": "#item_id_aux",
+        "binding_type": "collection",
+        "binding_collection_name": "hotbar_items"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#item_id_aux = -1))",
+        "target_property_name": "('#aiv_' + $id)"
+      }
+    ]
+  },
+  
+  "available_inventory_text": {
+    "$bg_size|default": ["100%c","100%c"],
+    "$bg_alpha|default": 0,
+    "type": "image",
+    "texture": "$dimz_aiv_label_background_texture",
+    "color": "$dimz_aiv_label_background_color",
+    "size": "$bg_size",
+    "alpha": "$bg_alpha",
+    "variables": [
+      {
+        "requires": "$dimz_aiv_label_background",
+        "$bg_size": "$dimz_aiv_label_background_size",
+        "$bg_alpha": "$dimz_aiv_label_background_alpha"
+      }
+    ],
+    "controls": [
+      {
+        "available_inventory_text@module_ds-aiv-slot_items.slot_items": {
+          "type": "label",
+          "text": "#available_inventory_text",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [0.5,0.5],
+          "color": "$dimz_aiv_label_color",
+          "alpha": "$dimz_aiv_label_alpha",
+          "shadow": "$dimz_aiv_label_shadow",
+          "layer": 5
+        }
+      }
+    ]
+  },
+  
+  "available_inventory_viewer": {
+    "type": "stack_panel",
+    "size": ["100%c","100%cm"],
+    "orientation": "horizontal",
+    "anchor_from": "$dimz_aiv_anchor_from",
+    "anchor_to": "$dimz_aiv_anchor_to",
+    "offset": "$dimz_aiv_offset",
+    "controls": [
+      {
+        "icon_wrapper": {
+          "type": "panel",
+          "size": [15,"100%sm"],
+          "controls": [ { "inventory_icon@hud_ds-aiv.inventory_icon": {} } ]
+        }
+      },
+      {
+        "padding": {
+          "type": "panel",
+          "size": [3,"100%sm"]
+        }
+      },
+      {
+        "label_wrapper": {
+          "type": "panel",
+          "size": ["100%c","100%c"],
+          "controls": [ { "label@hud_ds-aiv.available_inventory_text": {} } ]
+        }
+      }
+    ]
+  }
+}

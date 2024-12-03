@@ -18,6 +18,9 @@
     "ui/.assets/.brewing_icons",
     "ui/.assets/.brewing_guide",
     "ui/.assets/.gamemode_switcher",
-    "ui/.assets/.pocket_warning"
+    "ui/.assets/.pocket_warning",
+    ////////*/ Available Inventory Viewer /*////////
+    "vds/ui_data/modules/available_inventory_viewer/hud.uids",
+    "vds/ui_data/modules/available_inventory_viewer/_modules/slot_items.uids"
   ]
 }

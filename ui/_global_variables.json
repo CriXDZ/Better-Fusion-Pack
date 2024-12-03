@@ -1,72 +1,100 @@
 {
-  "$light_button_default_text_color": [ 0.8, 0.8, 0.8 ],
-  "$light_button_locked_text_color": [ 0.4, 0.4, 0.4 ],
+  "$light_button_default_text_color": [0.8, 0.8, 0.8],
+  "$light_button_locked_text_color": [0.4, 0.4, 0.4],
 
-  "$light_toggle_default_text_color": [ 0.8, 0.8, 0.8 ],
-  "$light_toggle_checked_default_text_color": [ 0.8, 0.8, 0.8 ],
+  "$light_toggle_default_text_color": [0.8, 0.8, 0.8],
+  "$light_toggle_checked_default_text_color": [0.8, 0.8, 0.8],
 
-  "$title_text_color": [ 0.8, 0.8, 0.8 ],
-  
-  "$pocket_title_text_color": [ 0.8, 0.8, 0.8 ],
-  
-  "$tab_checked_text_color": [ 1.0, 1.0, 1.0 ],
-  "$tab_checked_locked_text_color": [ 1.0, 1.0, 1.0 ],
-  "$tab_checked_locked_hover_text_color": [ 1.0, 1.0, 1.0 ],
-  
-  "$tab_unchecked_glyph_color": [ 0.8, 0.8, 0.8 ],
-  "$tab_unchecked_hover_glyph_color": [ 0.8, 0.8, 0.8 ],
-  "$tab_unchecked_locked_glyph_color": [ 0.8, 0.8, 0.8 ],
-  "$tab_unchecked_locked_hover_glyph_color": [ 0.8, 0.8, 0.8 ],
+  "$title_text_color": [0.8, 0.8, 0.8],
 
-  "$tab_checked_glyph_color": [ 0.8, 0.8, 0.8 ],
-  "$tab_checked_hover_glyph_color": [ 0.8, 0.8, 0.8 ],
-  "$tab_checked_locked_glyph_color": [ 0.8, 0.8, 0.8 ],
-  "$tab_checked_locked_hover_glyph_color": [ 0.8, 0.8, 0.8 ],
+  "$pocket_title_text_color": [0.8, 0.8, 0.8],
 
-  "$dark_body_text_color": [ 0.8, 0.8, 0.8 ],
-  
-  "$smithing_table_cost_fail_text_color": [ 0.8, 0.8, 0.8 ],
+  "$tab_checked_text_color": [1.0, 1.0, 1.0],
+  "$tab_checked_locked_text_color": [1.0, 1.0, 1.0],
+  "$tab_checked_locked_hover_text_color": [1.0, 1.0, 1.0],
 
-  "$light_glyph_default_color": [ 0.8, 0.8, 0.8 ],
-  "$light_glyph_locked_color": [ 0.4, 0.4, 0.4 ],
+  "$tab_unchecked_glyph_color": [0.8, 0.8, 0.8],
+  "$tab_unchecked_hover_glyph_color": [0.8, 0.8, 0.8],
+  "$tab_unchecked_locked_glyph_color": [0.8, 0.8, 0.8],
+  "$tab_unchecked_locked_hover_glyph_color": [0.8, 0.8, 0.8],
 
-  "$store_dark_grey_text_color": [ 0.8, 0.8, 0.8 ],
+  "$tab_checked_glyph_color": [0.8, 0.8, 0.8],
+  "$tab_checked_hover_glyph_color": [0.8, 0.8, 0.8],
+  "$tab_checked_locked_glyph_color": [0.8, 0.8, 0.8],
+  "$tab_checked_locked_hover_glyph_color": [0.8, 0.8, 0.8],
 
-  "$dressing_room_lighter_button_color": [ 0.8, 0.8, 0.8 ],
+  "$dark_body_text_color": [0.8, 0.8, 0.8],
 
-  "$dropdown_radio_background_checked_color": [ 0.8, 0.8, 0.8 ],
+  "$smithing_table_cost_fail_text_color": [0.8, 0.8, 0.8],
 
-  "$dark_button_locked_text_color": [ 0.4, 0.4, 0.4 ],
-  "$dark_button_secondary_locked_text_color": [ 0.4, 0.4, 0.4 ],
-  "$dark_glyph_locked_color": [ 0.4, 0.4, 0.4 ],
+  "$light_glyph_default_color": [0.8, 0.8, 0.8],
+  "$light_glyph_locked_color": [0.4, 0.4, 0.4],
 
-  "$light_border_default_color": [ 0.0, 0.0, 0.0 ],
-  "$light_border_locked_color": [ 0.0, 0.0, 0.0 ],
-  "$light_border_toggle_default_color": [ 0.0, 0.0, 0.0 ],
+  "$store_dark_grey_text_color": [0.8, 0.8, 0.8],
 
-  "$dark_border_default_color": [ 0.0, 0.0, 0.0 ],
-  "$dark_border_locked_color": [ 0.0, 0.0, 0.0 ],
-  "$dark_border_toggle_default_color": [ 0.0, 0.0, 0.0 ],
- 
-  "$tab_unchecked_text_color": [ 0.8, 0.8, 0.8 ],
-  "$tab_unchecked_locked_text_color": [ 0.8, 0.8, 0.8 ],
-  "$tab_unchecked_locked_hover_text_color": [ 0.8, 0.8, 0.8 ],
+  "$dressing_room_lighter_button_color": [0.8, 0.8, 0.8],
 
-  "$trade_tier_name_locked_color": [ 0.4, 0.4, 0.4 ],
-  "$trade_lock_color": [ 0.4, 0.4, 0.4 ],
- 
-  "$dressing_room_right_side_default_text_color": [ 1.0, 1.0, 1.0 ],
-  "$dressing_room_size_default_text_color": [ 0.8, 0.8, 0.8 ],
-  "$dressing_room_color_title": [ 0.8, 0.8, 0.8 ],
-  "$dressing_room_dark_button_color": [ 0.8, 0.8, 0.8 ],
+  "$dropdown_radio_background_checked_color": [0.8, 0.8, 0.8],
+
+  "$dark_button_locked_text_color": [0.4, 0.4, 0.4],
+  "$dark_button_secondary_locked_text_color": [0.4, 0.4, 0.4],
+  "$dark_glyph_locked_color": [0.4, 0.4, 0.4],
+
+  "$light_border_default_color": [0.0, 0.0, 0.0],
+  "$light_border_locked_color": [0.0, 0.0, 0.0],
+  "$light_border_toggle_default_color": [0.0, 0.0, 0.0],
+
+  "$dark_border_default_color": [0.0, 0.0, 0.0],
+  "$dark_border_locked_color": [0.0, 0.0, 0.0],
+  "$dark_border_toggle_default_color": [0.0, 0.0, 0.0],
+
+  "$tab_unchecked_text_color": [0.8, 0.8, 0.8],
+  "$tab_unchecked_locked_text_color": [0.8, 0.8, 0.8],
+  "$tab_unchecked_locked_hover_text_color": [0.8, 0.8, 0.8],
+
+  "$trade_tier_name_locked_color": [0.4, 0.4, 0.4],
+  "$trade_lock_color": [0.4, 0.4, 0.4],
+
+  "$dressing_room_right_side_default_text_color": [1.0, 1.0, 1.0],
+  "$dressing_room_size_default_text_color": [0.8, 0.8, 0.8],
+  "$dressing_room_color_title": [0.8, 0.8, 0.8],
+  "$dressing_room_dark_button_color": [0.8, 0.8, 0.8],
   "$dressing_room_background_alpha": 0.7,
   "$dressing_room_panel_alpha": 0.3,
 
-  "$profile_create_character_selected_color": [ 0.8, 0.8, 0.8 ],
-  "$profile_create_character_unselected_color": [ 0.1, 0.1, 0.1 ],
+  "$profile_create_character_selected_color": [0.8, 0.8, 0.8],
+  "$profile_create_character_unselected_color": [0.1, 0.1, 0.1],
 
   // Costume Code
   "$settings_background_alpha": 0.6,
-  "$profile_create_character_selected_dark_color": [ 0.2, 0.2, 0.2 ],
-  "$featured_info_panel": [0.2, 0.2, 0.2]
+  "$profile_create_character_selected_dark_color": [0.2, 0.2, 0.2],
+  "$featured_info_panel": [0.2, 0.2, 0.2],
+
+  // Available Inventory Viewer
+  "$dimz_aiv_count_hotbar": true,
+  "$dimz_aiv_anchor_from": "bottom_left",
+  "$dimz_aiv_anchor_to": "bottom_left",
+  "$dimz_aiv_offset": [5, -5],
+
+  // Label
+  "$dimz_aiv_label_background": true,
+  "$dimz_aiv_label_color": [1, 1, 1],
+  "$dimz_aiv_label_alpha": 1,
+  "$dimz_aiv_label_shadow": true,
+
+  "$dimz_aiv_label_background_texture": "vds/ui_texture/available_inventory_viewer/background",
+  "$dimz_aiv_label_background_size": ["100%c+10px", "100%c+5px"],
+  "$dimz_aiv_label_background_color": [0, 0, 0],
+  "$dimz_aiv_label_background_alpha": 0.7,
+
+  // Notifications
+  "$dimz_aiv_show_warning_when_full": true,
+  "$dimz_aiv_notification_duration": 3,
+  "$dimz_aiv_notification_anims_in": "in_back",
+  "$dimz_aiv_notification_anims_out": "out_back",
+
+  "$dimz_aiv_notification_background_texture": "vds/ui_texture/available_inventory_viewer/background",
+  "$dimz_aiv_notification_background_size": ["100%c+10px", "100%c+5px"],
+  "$dimz_aiv_notification_background_color": [0, 0, 0],
+  "$dimz_aiv_notification_background_alpha": 0.7
 }
