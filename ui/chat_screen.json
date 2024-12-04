@@ -7,10 +7,7 @@
     "enable_profanity_filter": false
   },
   "down_arrow_image": {
-    "size": [
-      7,
-      8
-    ],
+    "size": [7, 8],
     "texture": "textures/ui/th3emilis/advanchat/chat_down_arrow"
   },
   "chat_bottom_panel": {
