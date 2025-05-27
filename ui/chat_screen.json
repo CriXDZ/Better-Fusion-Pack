@@ -1,0 +1,44 @@
+{
+   "namespace": "chat",
+   "chat_screen@common.base_screen": {
+      "close_on_player_hurt": false
+   },
+   "messages_text/text": {
+      "enable_profanity_filter": false
+   },
+   "down_arrow_image": {
+      "size": [7, 8],
+      "texture": "textures/ui/th3emilis/advanchat/chat_down_arrow"
+   },
+   "chat_bottom_panel": {
+      "modifications": [
+         {
+            "array_name": "controls",
+            "operation": "replace",
+            "where": { "chat_settings@chat.chat_settings_button": {} },
+            "value": { "chat_settings@advanchat_chat.chat_settings_button": {} }
+         },
+         {
+            "array_name": "controls",
+            "operation": "insert_before",
+            "control_name": "text_box",
+            "value": [
+               {
+                  "previous_message_button@advanchat_chat.previous_message_button": {}
+               },
+               { "next_message_button@advanchat_chat.next_message_button": {} },
+               {
+                  "autocomplete_back_button@advanchat.autocomplete_back_button": {
+                     "ignored": "$is_pregame"
+                  }
+               },
+               {
+                  "autocomplete_button@advanchat.autocomplete_button": {
+                     "ignored": "$is_pregame"
+                  }
+               }
+            ]
+         }
+      ]
+   }
+}

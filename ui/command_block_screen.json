@@ -1,0 +1,19 @@
+{
+   "namespace": "command_block",
+   "command_block_screen_content/background_divider/header_buttons_stack_panel": {
+      "modifications": [
+         {
+            "array_name": "controls",
+            "operation": "insert_front",
+            "value": [
+               {
+                  "autocomplete_back_button@advanchat_command_block.autocomplete_back_button": {}
+               },
+               {
+                  "autocomplete_button@advanchat_command_block.autocomplete_button": {}
+               }
+            ]
+         }
+      ]
+   }
+}

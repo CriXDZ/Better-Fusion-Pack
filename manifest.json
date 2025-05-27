@@ -1,0 +1,20 @@
+{
+   "format_version": 2,
+   "metadata": {
+      "authors": ["CriXDZ"]
+   },
+   "header": {
+      "name": "§6Better Fusion Pack§r",
+      "description": "§fPaquete que implementa nuevas características, agrega nuevas texturas y optimiza interfaces para una mejor experiencia de juego.\n§dSígueme en GitHub: §fhttps://github.com/CriXDZ",
+      "uuid": "ed85f744-7682-4416-bfa7-ccf8cc9bd653",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 21, 0]
+   },
+   "modules": [
+      {
+         "type": "resources",
+         "uuid": "09eec18f-78ca-41ce-b4ca-89e89e22d951",
+         "version": [1, 0, 0]
+      }
+   ]
+}

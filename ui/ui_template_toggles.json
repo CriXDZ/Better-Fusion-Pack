@@ -1,0 +1,115 @@
+{
+   "light_content_toggle_visibility@common_toggles.light_template_toggle": {
+      "$button_type_panel": "common_buttons.button_content_panel",
+      "$button_content|default": "common_toggles.toggle_image",
+      "$button_offset|default": [0, 0],
+      "sound_name": "random.release"
+   },
+   "light_content_toggle_visibility_one_button_state@common_toggles.light_content_toggle_visibility": {
+      "$hover_texture": "textures/ui/button_borderless_light",
+      "$pressed_texture": "textures/ui/button_borderless_lighthover",
+      "$pressed_no_hover_texture": "textures/ui/button_borderless_lighthover",
+      "$default_checked_text_color": "$light_toggle_default_text_color"
+   },
+   "light_ui_toggle": {
+      "prevent_touch_input": true
+   },
+   "mtb_toggle@common_toggles.light_template_toggle": {
+      "$default_texture": "textures/ui/mtb_default",
+      "$hover_texture": "textures/ui/mtb_hover",
+      "$pressed_texture": "textures/ui/mtb_pressed",
+      "$pressed_no_hover_texture": "textures/ui/mtb_hover",
+      "$locked_texture": "textures/ui/mtb_default",
+      "$hover_border_visible": false,
+      "$default_border_visible": false
+   },
+   "gear_toggle@common_toggles.light_template_toggle": {
+      "$default_texture": "textures/ui/menu_ic_d",
+      "$hover_texture": "textures/ui/menu_ic_h",
+      "$pressed_texture": "textures/ui/menu_ic_p",
+      "$pressed_no_hover_texture": "textures/ui/menu_ic_h",
+      "$locked_texture": "textures/ui/menu_ic_d",
+      "$hover_border_visible": false,
+      "$default_border_visible": false
+   },
+   "ct_toggle@common_toggles.light_template_toggle": {
+      "$default_texture": "textures/ui/ct_ic_d",
+      "$hover_texture": "textures/ui/ct_ic_h",
+      "$pressed_texture": "textures/ui/ct_ic_p",
+      "$pressed_no_hover_texture": "textures/ui/ct_ic_h",
+      "$locked_texture": "textures/ui/ct_ic_d",
+      "$hover_border_visible": false,
+      "$default_border_visible": false
+   },
+   "tp_toggle@common_toggles.light_template_toggle": {
+      "$default_texture": "textures/ui/Black",
+      "$hover_texture": "textures/ui/Black",
+      "$pressed_texture": "textures/ui/Black",
+      "$pressed_no_hover_texture": "textures/ui/Black",
+      "$locked_texture": "textures/ui/Black",
+      "$default_border_visible": false,
+      "$hover_border_visible": false
+   },
+   "qs_toggle@common_toggles.light_template_toggle": {
+      "$default_texture": "textures/ui/button",
+      "$hover_texture": "textures/ui/button",
+      "$pressed_texture": "textures/ui/button_p",
+      "$pressed_no_hover_texture": "textures/ui/button",
+      "$locked_texture": "textures/ui/button",
+      "$default_border_visible": false,
+      "$hover_border_visible": false
+   },
+   "mtb_ui_toggle": {
+      "type": "panel",
+      "$toggle_view_binding_name|default": "this_toggle",
+      "$template_toggle|default": "common_toggles.mtb_toggle",
+      "controls": [
+         {
+            "$toggle_view_binding_name@$template_toggle": {}
+         }
+      ]
+   },
+   "gear_ui_toggle": {
+      "type": "panel",
+      "$toggle_view_binding_name|default": "this_toggle",
+      "$template_toggle|default": "common_toggles.gear_toggle",
+      "controls": [
+         {
+            "$toggle_view_binding_name@$template_toggle": {}
+         }
+      ]
+   },
+   "ct_ui_toggle": {
+      "type": "panel",
+      "$toggle_view_binding_name|default": "this_toggle",
+      "$template_toggle|default": "common_toggles.ct_toggle",
+      "controls": [
+         {
+            "$toggle_view_binding_name@$template_toggle": {}
+         }
+      ]
+   },
+   "tp_ui_toggle": {
+      "type": "panel",
+      "$toggle_view_binding_name|default": "this_toggle",
+      "$template_toggle|default": "common_toggles.tp_toggle",
+      "controls": [
+         {
+            "$toggle_view_binding_name@$template_toggle": {}
+         }
+      ]
+   },
+   "qs_ui_toggle": {
+      "type": "panel",
+      "$toggle_view_binding_name|default": "this_toggle",
+      "$template_toggle|default": "common_toggles.qs_toggle",
+      "controls": [
+         {
+            "$toggle_view_binding_name@$template_toggle": {}
+         }
+      ]
+   },
+   "switch_toggle@common_toggles.light_image_toggle": {
+      "prevent_touch_input": true
+   }
+}

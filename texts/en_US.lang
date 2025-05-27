@@ -1,0 +1,74 @@
+##Modifications
+action.interact.trade=§fTrade
+trade.trade=§fTrade
+
+##Available Inventory Viewer
+dimzAvailableInventoryViewer.notification=§6inventory slots left
+
+##Advanchat
+accessibility.chat.tts.previousMessage=Previous Message
+accessibility.chat.tts.nextMessage=Next Message
+accessibility.chat.tts.autocompleteBack=Autocomplete Back
+accessibility.chat.tts.autocomplete=Autocomplete
+chat.title=Advanchat
+chat.title.cheats=Advanchat (Commands)
+
+## Coordinates days played
+map.position= §7[§cX= %s §7| §eY= %s §7| §bZ= %s§7]
+hudScreen.daysPlayed= §7[§6Days Played: §a%s§r§7]
+
+## Enchantments
+enchantment.arrowDamage= §c Power
+enchantment.arrowFire= §6 Flame
+enchantment.arrowInfinite= §2 Infinity
+enchantment.arrowKnockback= §fPunch
+enchantment.crossbowMultishot= §a MultiShot
+enchantment.crossbowPiercing= §c Piercing
+enchantment.crossbowQuickCharge= §8 Quick Charge
+enchantment.curse.binding= §cCurse of Binding
+enchantment.curse.vanishing= §cCurse of Vanishing
+enchantment.damage.all= §4Sharpness
+enchantment.damage.arthropods= §8Bane of Arthropods
+enchantment.damage.undead= §8Smite
+enchantment.digging= §eEfficiency
+enchantment.durability= §bUnbreaking
+enchantment.fire= §cFire Aspect
+enchantment.fishingSpeed= §dLure
+enchantment.frostwalker= §bFrost Walker
+enchantment.heavy_weapon.breach= §aBreach
+enchantment.heavy_weapon.density= §aDensity
+enchantment.heavy_weapon.windburst= §fWind Burst
+enchantment.knockback= §bKnockback
+enchantment.level.1=§r
+enchantment.level.10=§r
+enchantment.level.2=§r
+enchantment.level.3=§r
+enchantment.level.4=§r
+enchantment.level.5=§r
+enchantment.level.6=§r
+enchantment.level.7=§r
+enchantment.level.8=§r
+enchantment.level.9=§r
+enchantment.lootBonus= §6Looting
+enchantment.lootBonusDigger= §aFortune
+enchantment.lootBonusFishing= §eLuck of the Sea
+enchantment.mending= §aMending
+enchantment.oxygen= §bRespiration
+enchantment.protect.all= §fProtection
+enchantment.protect.explosion= §2Blast Protection
+enchantment.protect.fall= §fFeather Falling
+enchantment.protect.fire= §cFireProtection
+enchantment.protect.projectile= §eProjectile Protection
+enchantment.soul_speed= §bSoul Speed
+enchantment.swift_sneak= §dSwift Sneak
+enchantment.thorns= §bThorns
+enchantment.untouching= §dSilk Touch
+enchantment.waterWalker= §9Depth Strider
+enchantment.waterWorker= §bAqua Affinity
+enchantment.tridentChanneling= §eChanneling
+enchantment.tridentLoyalty= §bLoyalty
+enchantment.tridentRiptide= §dRiptide
+enchantment.tridentImpaling= §cImpaling
+
+##BetterInventory
+inv.destroy.name=§cDestroy Items

@@ -1,0 +1,87 @@
+/*File made by @CrisXolt.
+//(c) Don't use any UI data design without permission!*/
+{
+  "namespace": "CrisXolt_rgb_xp_bar",
+
+  "experience_bar_background": {
+    "type": "panel",
+    "size": [ 182, 5 ],
+    "controls": [
+      {
+        "texture@CrisXolt_rgb_config.main_rgb_config": {
+          "type": "image",
+          "texture": "textures/animated_ui/hud/hud_experience_bar_background",
+          "uv": "@CrisXolt_rgb_uv.bar_uv_color_frame_01",
+          "uv_size": "$rgb_bar_uv_size",
+          "size": [ "100%", "100%" ]
+        }
+      }
+    ]
+  },
+
+  "experience_bar_progress": {
+    "type": "panel",
+    "size": [ 182, 5 ],
+    "controls": [
+      {
+        "texture@CrisXolt_rgb_config.main_rgb_config": {
+          "type": "image",
+          "texture": "textures/animated_ui/hud/hud_experience_bar_progress",
+          "size": [ "100%", "100%" ],
+          "uv": "@CrisXolt_rgb_uv.bar_uv_color_frame_01",
+          "uv_size": "$rgb_bar_uv_size",
+          "clip_direction": "left",
+          "clip_pixelperfect": true,
+          "bindings": [
+            {
+              "binding_name": "#exp_progress",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "global"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "experience_bar_touch_background": {
+    "type": "panel",
+    "size": [ 202, 5 ],
+    "controls": [
+      {
+        "texture@CrisXolt_rgb_config.main_rgb_config": {
+          "type": "image",
+          "texture": "textures/animated_ui/hud/hud_experience_bar_touch_background",
+          "uv": "@CrisXolt_rgb_uv.bar_uv_color_frame_01",
+          "uv_size": "$rgb_bar_touch_uv_size",
+          "size": [ "100%", "100%" ]
+        }
+      }
+    ]
+  },
+
+  "experience_bar_touch_progress": {
+    "type": "panel",
+    "size": [ 202, 5 ],
+    "controls": [
+      {
+        "texture@CrisXolt_rgb_config.main_rgb_config": {
+          "type": "image",
+          "texture": "textures/animated_ui/hud/hud_experience_bar_touch_progress",
+          "size": [ "100%", "100%" ],
+          "uv": "@CrisXolt_rgb_uv.bar_uv_color_frame_01",
+          "uv_size": "$rgb_bar_touch_uv_size",
+          "clip_direction": "left",
+          "clip_pixelperfect": true,
+          "bindings": [
+            {
+              "binding_name": "#exp_progress",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "global"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

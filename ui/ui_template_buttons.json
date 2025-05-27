@@ -1,0 +1,79 @@
+{
+   "MinecraftMod-toggle_tab@common_toggles.light_ui_toggle": {
+      "$default_texture": "textures/ui/tab_default",
+      "$hover_texture": "textures/ui/tab_pressed",
+      "$pressed_texture": "textures/ui/tab_hover",
+      "$pressed_no_hover_texture": "textures/ui/tab_pressed",
+      "$default_border_visible": false,
+      "$hover_border_visible": false,
+      "$radio_toggle_group|default": true,
+      "$button_type_panel": "common_buttons.MinecraftMod-toggle_tab_content",
+      "size": [40, 26],
+      "layer": 30
+   },
+   "MinecraftMod-toggle_tab_content": {
+      "controls": [
+         {
+            "tab_icon": {
+               "size": [16, 16],
+               "texture": "$tab_icon",
+               "type": "image"
+            }
+         },
+         {
+            "h@hover_text": {
+               "layer": 99
+            }
+         }
+      ],
+      "type": "panel"
+   },
+   "hover_text": {
+      "ignored": "((not $toggle_checked_hover) and (not $toggle_unchecked_hover))",
+      "type": "image",
+      "texture": "textures/ui/purpleBorder",
+      "size": ["100%c + 8px", "100%c + 6px"],
+      "layer": 100,
+      "anchor_from": "center",
+      "anchor_to": "left_middle",
+      "offset": [8, 2],
+      "$hover_text_color|default": "white",
+      "controls": [
+         {
+            "hover_text": {
+               "type": "label",
+               "text": "$hover_text",
+               "shadow": false,
+               "color": "$hover_text_color",
+               "anchor_from": "top_left",
+               "anchor_to": "top_left",
+               "offset": [5, 3],
+               "layer": 1
+            }
+         }
+      ],
+      "visible": "$use_hover_text",
+      "$use_hover_text|default": true
+   },
+   "light_text_button/default": {
+      "$border_visible": "$default_border_visible"
+   },
+   "light_content_button": {
+      "$default_button_image_color|default": [1.0, 1.0, 1.0],
+      "$hover_button_image_color|default": "$default_button_image_color",
+      "$pressed_button_image_color|default": "$hover_button_image_color",
+      "$locked_button_image_color|default": "$default_button_image_color"
+   },
+   "light_content_button/default": {
+      "$button_image_color|default": "$default_button_image_color"
+   },
+   "light_content_button/hover": {
+      "$button_image_color|default": "$hover_button_image_color"
+   },
+   "light_content_button/pressed": {
+      "$button_image_color|default": "$pressed_button_image_color"
+   },
+   "light_content_button/locked": {
+      "$button_image_color|default": "$locked_button_image_color"
+   }
+}

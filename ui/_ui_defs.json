@@ -1,0 +1,26 @@
+{
+   "ui_defs": [
+      /* ----------RGB Assets---------- */
+      "uidx/animated_ui/rgb_config.json",
+      /* ----------Common---------- */
+      "uidx/animated_ui/_common/label.uidx",
+      "uidx/animated_ui/_common/label.uidx",
+      "uidx/animated_ui/_common/uv.uidx",
+      /* ----------HUD---------- */
+      "uidx/animated_ui/_hud/bar.uidx",
+      "uidx/animated_ui/_hud/level.uidx",
+      /* ----------Advanchat---------- */
+      "ui/th3emilis/advanchat/command_block_screen.json",
+      "ui/th3emilis/advanchat/chat_screen.json",
+      "ui/th3emilis/advanchat/ui_common.json",
+      /* ----------BetterInventory---------- */
+      "ui/.assets/.chat_tweaks",
+      "ui/.assets/.brewing_icons",
+      "ui/.assets/.brewing_guide",
+      "ui/.assets/.gamemode_switcher",
+      "ui/.assets/.pocket_warning",
+      /* ----------Available Inventory Viewer---------- */
+      "ui/dimz_modules/available_inventory_viewer/hud.uids",
+      "ui/dimz_modules/available_inventory_viewer/hud_item_data.uids"
+   ]
+}

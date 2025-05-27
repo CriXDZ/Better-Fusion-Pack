@@ -1,0 +1,39 @@
+{
+   "namespace": "advanchat_command_block",
+   "autocomplete_back_icon": {
+      "type": "image",
+      "layer": 2,
+      "size": [12, 12],
+      "texture": "textures/ui/th3emilis/advanchat/command_block_autocomplete_back"
+   },
+   "autocomplete_icon": {
+      "type": "image",
+      "layer": 2,
+      "size": [12, 12],
+      "texture": "textures/ui/th3emilis/advanchat/command_block_autocomplete"
+   },
+   "generic_button@common_buttons.light_glyph_button": {
+      "layer": 2,
+      "size": [16, 16],
+      "anchor_from": "top_right",
+      "anchor_to": "top_right",
+      "$default_glyph_color": "$light_glyph_hover_color",
+      "bindings": [
+         {
+            "binding_name": "#minimize_button_visible_binding_name",
+            "binding_name_override": "#visible",
+            "binding_type": "global"
+         }
+      ]
+   },
+   "autocomplete_back_button@advanchat_command_block.generic_button": {
+      "$button_content": "advanchat_command_block.autocomplete_back_icon",
+      "$pressed_button_name": "button.chat_autocomplete_back",
+      "$button_tts_header": "accessibility.chat.tts.autocompleteBack"
+   },
+   "autocomplete_button@advanchat_command_block.generic_button": {
+      "$button_content": "advanchat_command_block.autocomplete_icon",
+      "$pressed_button_name": "button.chat_autocomplete",
+      "$button_tts_header": "accessibility.chat.tts.autocomplete"
+   }
+}

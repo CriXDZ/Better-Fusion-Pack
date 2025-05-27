@@ -1,0 +1,50 @@
+{
+   "namespace": "advanchat_chat",
+   "gear_icon": {
+      "type": "image",
+      "size": [14, 14],
+      "$gear_icon|default": "textures/ui/th3emilis/advanchat/gear",
+      "texture": "$gear_icon"
+   },
+   "gear_icon_panel": {
+      "type": "panel",
+      "variables": [
+         {
+            "requires": "$hover_state",
+            "$gear_icon": "textures/ui/th3emilis/advanchat/gear_hover"
+         },
+         {
+            "requires": "$pressed_state",
+            "$gear_icon": "textures/ui/th3emilis/advanchat/gear_hover"
+         }
+      ],
+      "controls": [{ "gear_icon@advanchat_chat.gear_icon": {} }]
+   },
+   "previous_message_icon": {
+      "type": "image",
+      "size": [5, 14],
+      "texture": "textures/ui/th3emilis/advanchat/previous_message"
+   },
+   "next_message_icon": {
+      "type": "image",
+      "size": [5, 14],
+      "texture": "textures/ui/th3emilis/advanchat/next_message"
+   },
+   "chat_settings_button@advanchat.generic_button": {
+      "$button_content": "advanchat_chat.gear_icon_panel",
+      "$pressed_button_name": "button.open_chat_settings",
+      "$focus_id": "chat_settings_button_focus_id",
+      "$focus_override_up": "coordinate_dropdown_focus_id",
+      "$button_tts_header": "chat.settings"
+   },
+   "previous_message_button@advanchat.generic_button": {
+      "$button_content": "advanchat_chat.previous_message_icon",
+      "$pressed_button_name": "button.chat_previous_message",
+      "$button_tts_header": "accessibility.chat.tts.previousMessage"
+   },
+   "next_message_button@advanchat.generic_button": {
+      "$button_content": "advanchat_chat.next_message_icon",
+      "$pressed_button_name": "button.chat_next_message",
+      "$button_tts_header": "accessibility.chat.tts.nextMessage"
+   }
+}

@@ -1,0 +1,278 @@
+{
+  "namespace": "hud_item_data_ds-aiv",
+
+  "inventory_hud_item": {
+    "type": "collection_panel",
+    "size": [ 0, 0 ],
+    "collection_name": "hotbar_items",
+    "property_bag": {
+      "#full_true": "§c"
+    },
+    "controls": [
+      { "aiv_0@hud_ds-aiv.slot_items": { "$id": 0 } },
+      { "aiv_1@hud_ds-aiv.slot_items": { "$id": 1 } },
+      { "aiv_2@hud_ds-aiv.slot_items": { "$id": 2 } },
+      { "aiv_3@hud_ds-aiv.slot_items": { "$id": 3 } },
+      { "aiv_4@hud_ds-aiv.slot_items": { "$id": 4 } },
+      { "aiv_5@hud_ds-aiv.slot_items": { "$id": 5 } },
+      { "aiv_6@hud_ds-aiv.slot_items": { "$id": 6 } },
+      { "aiv_7@hud_ds-aiv.slot_items": { "$id": 7 } },
+      { "aiv_8@hud_ds-aiv.slot_items": { "$id": 8 } },
+      { "aiv_9@hud_ds-aiv.slot_items": { "$id": 9 } },
+      { "aiv_10@hud_ds-aiv.slot_items": { "$id": 10 } },
+      { "aiv_11@hud_ds-aiv.slot_items": { "$id": 11 } },
+      { "aiv_12@hud_ds-aiv.slot_items": { "$id": 12 } },
+      { "aiv_13@hud_ds-aiv.slot_items": { "$id": 13 } },
+      { "aiv_14@hud_ds-aiv.slot_items": { "$id": 14 } },
+      { "aiv_15@hud_ds-aiv.slot_items": { "$id": 15 } },
+      { "aiv_16@hud_ds-aiv.slot_items": { "$id": 16 } },
+      { "aiv_17@hud_ds-aiv.slot_items": { "$id": 17 } },
+      { "aiv_18@hud_ds-aiv.slot_items": { "$id": 18 } },
+      { "aiv_19@hud_ds-aiv.slot_items": { "$id": 19 } },
+      { "aiv_20@hud_ds-aiv.slot_items": { "$id": 20 } },
+      { "aiv_21@hud_ds-aiv.slot_items": { "$id": 21 } },
+      { "aiv_22@hud_ds-aiv.slot_items": { "$id": 22 } },
+      { "aiv_23@hud_ds-aiv.slot_items": { "$id": 23 } },
+      { "aiv_24@hud_ds-aiv.slot_items": { "$id": 24 } },
+      { "aiv_25@hud_ds-aiv.slot_items": { "$id": 25 } },
+      { "aiv_26@hud_ds-aiv.slot_items": { "$id": 26 } },
+      { "aiv_27@hud_ds-aiv.slot_items": { "$id": 27 } },
+      { "aiv_28@hud_ds-aiv.slot_items": { "$id": 28 } },
+      { "aiv_29@hud_ds-aiv.slot_items": { "$id": 29 } },
+      { "aiv_30@hud_ds-aiv.slot_items": { "$id": 30 } },
+      { "aiv_31@hud_ds-aiv.slot_items": { "$id": 31 } },
+      { "aiv_32@hud_ds-aiv.slot_items": { "$id": 32 } },
+      { "aiv_33@hud_ds-aiv.slot_items": { "$id": 33 } },
+      { "aiv_34@hud_ds-aiv.slot_items": { "$id": 34 } },
+      { "aiv_35@hud_ds-aiv.slot_items": { "$id": 35 } }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_0",
+        "source_property_name": "#aiv_0",
+        "target_property_name": "#aiv_0"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_1",
+        "source_property_name": "#aiv_1",
+        "target_property_name": "#aiv_1"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_2",
+        "source_property_name": "#aiv_2",
+        "target_property_name": "#aiv_2"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_3",
+        "source_property_name": "#aiv_3",
+        "target_property_name": "#aiv_3"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_4",
+        "source_property_name": "#aiv_4",
+        "target_property_name": "#aiv_4"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_5",
+        "source_property_name": "#aiv_5",
+        "target_property_name": "#aiv_5"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_6",
+        "source_property_name": "#aiv_6",
+        "target_property_name": "#aiv_6"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_7",
+        "source_property_name": "#aiv_7",
+        "target_property_name": "#aiv_7"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_8",
+        "source_property_name": "#aiv_8",
+        "target_property_name": "#aiv_8"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_9",
+        "source_property_name": "#aiv_9",
+        "target_property_name": "#aiv_9"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_10",
+        "source_property_name": "#aiv_10",
+        "target_property_name": "#aiv_10"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_11",
+        "source_property_name": "#aiv_11",
+        "target_property_name": "#aiv_11"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_12",
+        "source_property_name": "#aiv_12",
+        "target_property_name": "#aiv_12"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_13",
+        "source_property_name": "#aiv_13",
+        "target_property_name": "#aiv_13"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_14",
+        "source_property_name": "#aiv_14",
+        "target_property_name": "#aiv_14"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_15",
+        "source_property_name": "#aiv_15",
+        "target_property_name": "#aiv_15"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_16",
+        "source_property_name": "#aiv_16",
+        "target_property_name": "#aiv_16"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_17",
+        "source_property_name": "#aiv_17",
+        "target_property_name": "#aiv_17"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_18",
+        "source_property_name": "#aiv_18",
+        "target_property_name": "#aiv_18"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_19",
+        "source_property_name": "#aiv_19",
+        "target_property_name": "#aiv_19"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_20",
+        "source_property_name": "#aiv_20",
+        "target_property_name": "#aiv_20"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_21",
+        "source_property_name": "#aiv_21",
+        "target_property_name": "#aiv_21"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_22",
+        "source_property_name": "#aiv_22",
+        "target_property_name": "#aiv_22"
+      },
+      { //Dimzcraft
+        "binding_type": "view",
+        "source_control_name": "aiv_23",
+        "source_property_name": "#aiv_23",
+        "target_property_name": "#aiv_23"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_24",
+        "source_property_name": "#aiv_24",
+        "target_property_name": "#aiv_24"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_25",
+        "source_property_name": "#aiv_25",
+        "target_property_name": "#aiv_25"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_26",
+        "source_property_name": "#aiv_26",
+        "target_property_name": "#aiv_26"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_27",
+        "source_property_name": "#aiv_27",
+        "target_property_name": "#aiv_27"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_28",
+        "source_property_name": "#aiv_28",
+        "target_property_name": "#aiv_28"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_29",
+        "source_property_name": "#aiv_29",
+        "target_property_name": "#aiv_29"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_30",
+        "source_property_name": "#aiv_30",
+        "target_property_name": "#aiv_30"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_31",
+        "source_property_name": "#aiv_31",
+        "target_property_name": "#aiv_31"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_32",
+        "source_property_name": "#aiv_32",
+        "target_property_name": "#aiv_32"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_33",
+        "source_property_name": "#aiv_33",
+        "target_property_name": "#aiv_33"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_34",
+        "source_property_name": "#aiv_34",
+        "target_property_name": "#aiv_34"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "aiv_35",
+        "source_property_name": "#aiv_35",
+        "target_property_name": "#aiv_35"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#aiv_0 + #aiv_1 + #aiv_2 + #aiv_3 + #aiv_4 + #aiv_5 + #aiv_6 + #aiv_7 + #aiv_8 + #aiv_9 + #aiv_10 + #aiv_11 + #aiv_12 + #aiv_13 + #aiv_14 + #aiv_15 + #aiv_16 + #aiv_17 + #aiv_18 + #aiv_19 + #aiv_20 + #aiv_21 + #aiv_22 + #aiv_23 + #aiv_24 + #aiv_25 + #aiv_26 + #aiv_27 + #aiv_28 + #aiv_29 + #aiv_30 + #aiv_31 + #aiv_32 + #aiv_33 + #aiv_34 + #aiv_35)",
+        "target_property_name": "#available_inventory_value"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "('#full_' + (#available_inventory_value > 32))",
+        "target_property_name": "#inventory_full"
+      }
+    ]
+  }
+}

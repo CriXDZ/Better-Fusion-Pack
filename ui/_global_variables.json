@@ -1,0 +1,6 @@
+{
+   "$dimz_aiv_show_warning_when_full": true,
+   "$dimz_aiv_notification_duration": 3,
+   "$dimz_aiv_notification_anims_in": "in_back",
+   "$dimz_aiv_notification_anims_out": "out_back"
+}

@@ -1,0 +1,373 @@
+/*
+Code by @Dimzcraft.
+(c) Don't use any Code without permission
+*/
+{
+  "namespace": "hud_ds-aiv",
+
+
+  "warning_notification_alpha_end": {
+    "anim_type": "alpha",
+    "from": "$alpha",
+    "to": 0,
+    "duration": 0.2,
+    "easing": "linear"
+  },
+
+  "warning_notification_alpha_wait": {
+    "$alpha_duration": 1.8,
+    "anim_type": "wait",
+    "duration": "($alpha_duration + $dimz_aiv_notification_duration)",
+    "next": "@hud_ds-aiv.warning_notification_alpha_end"
+  },
+
+  "warning_notification_alpha_play": {
+    "anim_type": "alpha",
+    "from": 0,
+    "to": "$alpha",
+    "duration": 0.2,
+    "easing": "linear"
+  },
+
+
+  "warning_notification_offset_end": {
+    "anim_type": "offset",
+    "from": [ 0, 5 ],
+    "to": [ 0, "-200%" ],
+    "duration": 1,
+    "easing": "$dimz_aiv_notification_anims_in"
+  },
+
+  "warning_notification_offset_wait": {
+    "anim_type": "wait",
+    "duration": "(1 + $dimz_aiv_notification_duration)",
+    "next": "@hud_ds-aiv.warning_notification_offset_end"
+  },
+
+  "warning_notification_offset_play": {
+    "anim_type": "offset",
+    "from": [ 0, "-200%" ],
+    "to": [ 0, 5 ],
+    "duration": 1,
+    "easing": "$dimz_aiv_notification_anims_out"
+  },
+
+
+  "warning_notification_text": {
+    "type": "label",
+    "text": "dimzAvailableInventoryViewer.notification",
+    "offset": [ 0.5, 0.5 ],
+    "shadow": true,
+    "layer": 5
+  },
+
+  "warning_notification_number": {
+    "type": "label",
+    "text": "#text",
+    "offset": [ 0.5, 0.5 ],
+    "shadow": true,
+    "layer": 5,
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_hud_item_data",
+        "source_property_name": "('§c' + (36 - #available_inventory_value) + ' ')",
+        "target_property_name": "#text"
+      }
+    ]
+  },
+
+  "warning_notification_panel": {
+    "type": "image",
+    "texture": "textures/ui/available_inventory_viewer/background",
+    "size": [ "100%c + 10px", "100%c + 5px" ],
+    "color": [ 0, 0, 0 ],
+    "anims": [
+      "@hud_ds-aiv.warning_notification_alpha_play",
+      "@hud_ds-aiv.warning_notification_offset_play",
+      "@hud_ds-aiv.warning_notification_alpha_wait",
+      "@hud_ds-aiv.warning_notification_offset_wait"
+    ],
+    "$alpha": 0.7,
+    "controls": [
+      {
+        "stack_panel": {
+          "type": "stack_panel",
+          "size": [ "100%c", "100%cm" ],
+          "orientation": "horizontal",
+          "propagate_alpha": true,
+          "anims": [
+            "@hud_ds-aiv.warning_notification_alpha_play",
+            "@hud_ds-aiv.warning_notification_alpha_wait"
+          ],
+          "$alpha": 1,
+          "controls": [
+            {
+              "icon_wrapper": {
+                "type": "image",
+                "texture": "textures/ui/available_inventory_viewer/inventory_icon",
+                "size": [ 17, 17 ]
+              }
+            },
+            {
+              "padding": {
+                "type": "panel",
+                "size": [ 3, "100%sm" ]
+              }
+            },
+            {
+              "number_wrapper": {
+                "type": "panel",
+                "size": [ "100%c", "100%sm" ],
+                "controls": [
+                  {
+                    "label@hud_ds-aiv.warning_notification_number": {}
+                  }
+                ]
+              }
+            },
+            {
+              "text_wrapper": {
+                "type": "panel",
+                "size": [ "100%c", "100%sm" ],
+                "controls": [
+                  {
+                    "label@hud_ds-aiv.warning_notification_text": {}
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "available_inventory_notification": {
+    "type": "stack_panel",
+    "size": [ "100%cm", "100%c" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "controls": [
+      {
+        "touch_padding": {
+          "type": "panel",
+          "size": [ "100%sm", 20 ],
+          "bindings": [
+            {
+              "binding_name": "#inventory_touch_button",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "notification_panel": {
+          "type": "collection_panel",
+          "size": [ "100%cm", "100%cm" ],
+          "layer": 20,
+          "factory": {
+            "name": "available_inventory_notification_factory",
+            "control_name": "hud_ds-aiv.warning_notification_panel",
+            "max_children_size": 1
+          },
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "inventory_hud_item_data",
+              "source_property_name": "((#available_inventory_value = 36) * 1)",
+              "target_property_name": "#collection_length"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+
+  "slot_items": {
+    "type": "panel",
+    "collection_index": "$id",
+    "bindings": [
+      {
+        "binding_name": "#item_id_aux",
+        "binding_type": "collection",
+        "binding_collection_name": "hotbar_items"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#item_id_aux = -1))",
+        "target_property_name": "('#aiv_' + $id)"
+      }
+    ]
+  },
+
+  "available_inventory_viewer_icon_bar": {
+    "type": "panel",
+    "size": [ "100%cm", "100%cm" ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [ 5, -5 ],
+    "controls": [
+      {
+        "icon_empty": {
+          "type": "image",
+          "texture": "textures/ui/available_inventory_viewer/inventory_icon_empty",
+          "size": [ 16.5, 18 ]
+        }
+      },
+      {
+        "icon_full": {
+          "type": "image",
+          "texture": "textures/ui/available_inventory_viewer/inventory_icon_full",
+          "size": [ 13.5, 15 ],
+          "layer": 2,
+          "clip_direction": "down",
+          "property_bag": {
+            "#0": 1.00,
+            "#1": 0.99,
+            "#2": 0.97,
+            "#3": 0.94,
+            "#4": 0.92,
+            "#5": 0.89,
+            "#6": 0.86,
+            "#7": 0.83,
+            "#8": 0.81,
+            "#9": 0.78,
+            "#10": 0.75,
+            "#11": 0.72,
+            "#12": 0.69,
+            "#13": 0.67,
+            "#14": 0.64,
+            "#15": 0.61,
+            "#16": 0.58,
+            "#17": 0.56,
+            "#18": 0.53,
+            "#19": 0.50,
+            "#20": 0.47,
+            "#21": 0.44,
+            "#22": 0.42,
+            "#23": 0.39,
+            "#24": 0.36,
+            "#25": 0.33,
+            "#26": 0.31,
+            "#27": 0.28,
+            "#28": 0.25,
+            "#29": 0.22,
+            "#30": 0.19,
+            "#31": 0.17,
+            "#32": 0.14,
+            "#33": 0.11,
+            "#34": 0.08,
+            "#35": 0.06,
+            "#36": 0.03
+          },
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "inventory_hud_item_data",
+              "source_property_name": "#available_inventory_value",
+              "target_property_name": "#available_inventory_value"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "('#' + #available_inventory_value)",
+              "target_property_name": "#clip_ratio",
+              "binding_condition": "always"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "available_inventory_viewer_icon_number": {
+    "type": "panel",
+    "size": [ "100%cm", "100%cm" ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [ 5, -5 ],
+    "controls": [
+      {
+        "icon": {
+          "type": "image",
+          "texture": "textures/ui/available_inventory_viewer/inventory_icon",
+          "size": [ 14, 15 ],
+          "offset": [ -1, -1 ]
+        }
+      },
+      {
+        "text": {
+          "type": "label",
+          "text": "#text",
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_left",
+          "offset": [ 3, 1.5 ],
+          "shadow": true,
+          "layer": 2,
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "inventory_hud_item_data",
+              "source_property_name": "('§z' + #inventory_full + (36 - #available_inventory_value))",
+              "target_property_name": "#text"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "available_inventory_viewer_default": {
+    "type": "stack_panel",
+    "size": [ "100%c", "100%cm" ],
+    "orientation": "horizontal",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [ 5, -5 ],
+    "controls": [
+      {
+        "icon": {
+          "type": "image",
+          "texture": "textures/ui/available_inventory_viewer/inventory_icon",
+          "size": [ 13, 14 ],
+          "inherit_max_sibling_height": true
+        }
+      },
+      {
+        "padding": {
+          "type": "panel",
+          "size": [ 3, "100%sm" ]
+        }
+      },
+      {
+        "text_wrapper": {
+          "type": "image",
+          "texture": "textures/ui/available_inventory_viewer/background",
+          "size": [ "100%c + 10px", "100%cm + 5px" ],
+          "color": [ 0, 0, 0 ],
+          "alpha": 0.7,
+          "controls": [
+            {
+              "text": {
+                "type": "label",
+                "text": "#text",
+                "offset": [ 0.5, 0.5 ],
+                "shadow": true,
+                "layer": 2,
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "inventory_hud_item_data",
+                    "source_property_name": "('§z' + #inventory_full + #available_inventory_value + '§r/36')",
+                    "target_property_name": "#text"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

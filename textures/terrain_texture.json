@@ -1,0 +1,215 @@
+{
+   "resource_pack_name": "vanilla",
+   "texture_name": "atlas.terrain",
+   "padding": 8,
+   "num_mip_levels": 4,
+   "texture_data": {
+      "end_stone": {
+         "textures": "textures/blocks/end_stone"
+      },
+      "endframe_top": {
+         "textures": [
+            "textures/blocks/endframe_top",
+            "textures/blocks/endframe_top",
+            "textures/blocks/endframe_top",
+            "textures/blocks/endframe_top",
+            "textures/blocks/endframe_top_on",
+            "textures/blocks/endframe_top_on",
+            "textures/blocks/endframe_top_on",
+            "textures/blocks/endframe_top_on"
+         ]
+      },
+      "endframe_side_north": {
+         "textures": [
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side_o",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side_on",
+            "textures/blocks/endframe_side"
+         ]
+      },
+      "endframe_side_east": {
+         "textures": [
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side_o",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side_on"
+         ]
+      },
+      "endframe_side_south": {
+         "textures": [
+            "textures/blocks/endframe_side_o",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side_on",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side"
+         ]
+      },
+      "endframe_side_west": {
+         "textures": [
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side_o",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side_on",
+            "textures/blocks/endframe_side",
+            "textures/blocks/endframe_side"
+         ]
+      },
+      "reeds_top": {
+         "textures": ["textures/blocks/reeds_top"]
+      },
+      "reeds_side": {
+         "textures": ["textures/blocks/reeds_side"]
+      },
+      "reeds_center": {
+         "textures": ["textures/blocks/reeds_center"]
+      },
+      "3d_dripstone": {
+         "textures": ["textures/blocks/3d_dripstone"]
+      },
+      "sapling_top": {
+         "textures": [
+            "textures/blocks/sapling_oak_top",
+            "textures/blocks/sapling_spruce_top",
+            "textures/blocks/sapling_birch_top",
+            "textures/blocks/sapling_jungle_top",
+            "textures/blocks/sapling_acacia_top",
+            "textures/blocks/sapling_roofed_oak_top"
+         ]
+      },
+      "sapling_side": {
+         "textures": [
+            "textures/blocks/sapling_oak_side",
+            "textures/blocks/sapling_spruce_side",
+            "textures/blocks/sapling_birch_side",
+            "textures/blocks/sapling_jungle_side",
+            "textures/blocks/sapling_acacia_side",
+            "textures/blocks/sapling_roofed_oak_side"
+         ]
+      },
+      "sapling": {
+         "textures": [
+            "textures/blocks/sapling_oak",
+            "textures/blocks/sapling_spruce",
+            "textures/blocks/sapling_birch",
+            "textures/blocks/sapling_jungle",
+            "textures/blocks/sapling_acacia",
+            "textures/blocks/sapling_roofed_oak"
+         ]
+      },
+      "sapling_cherry": {
+         "textures": "textures/blocks/sapling_cherry"
+      },
+      "sapling_cherry_top": {
+         "textures": "textures/blocks/sapling_cherry_top"
+      },
+      "sapling_cherry_side": {
+         "textures": "textures/blocks/sapling_cherry_side"
+      },
+      "sapling_top_pot": {
+         "textures": [
+            "textures/blocks/sapling_oak_top",
+            "textures/blocks/sapling_spruce_top_pot",
+            "textures/blocks/sapling_birch_top",
+            "textures/blocks/sapling_jungle_top",
+            "textures/blocks/sapling_acacia_top",
+            "textures/blocks/sapling_roofed_oak_top"
+         ]
+      },
+      "sapling_side_pot": {
+         "textures": [
+            "textures/blocks/sapling_oak_side",
+            "textures/blocks/sapling_spruce_side_pot",
+            "textures/blocks/sapling_birch_side",
+            "textures/blocks/sapling_jungle_side",
+            "textures/blocks/sapling_acacia_side",
+            "textures/blocks/sapling_roofed_oak_side_pot"
+         ]
+      },
+      "sapling_pot": {
+         "textures": [
+            "textures/blocks/sapling_oak",
+            "textures/blocks/sapling_spruce",
+            "textures/blocks/sapling_birch",
+            "textures/blocks/sapling_jungle_pot",
+            "textures/blocks/sapling_acacia_pot",
+            "textures/blocks/sapling_roofed_oak"
+         ]
+      },
+      "crimson_mushroom": {
+         "textures": ["textures/blocks/crimson_mushroom"]
+      },
+      "crimson_mushroom_pot": {
+         "textures": ["textures/blocks/crimson_mushroom_pot"]
+      },
+      "crimson_mushroom_top": {
+         "textures": ["textures/blocks/crimson_mushroom_top"]
+      },
+      "crimson_mushroom_side": {
+         "textures": ["textures/blocks/crimson_mushroom_side"]
+      },
+      "crimson_mushroom_side_pot": {
+         "textures": ["textures/blocks/crimson_mushroom_side_pot"]
+      },
+      "warped_mushroom": {
+         "textures": ["textures/blocks/warped_mushroom"]
+      },
+      "warped_mushroom_pot": {
+         "textures": ["textures/blocks/warped_mushroom_pot"]
+      },
+      "warped_mushroom_side": {
+         "textures": ["textures/blocks/warped_mushroom_side"]
+      },
+      "warped_mushroom_side_pot": {
+         "textures": ["textures/blocks/warped_mushroom_side_pot"]
+      },
+      "warped_mushroom_top": {
+         "textures": ["textures/blocks/warped_mushroom_top"]
+      },
+      "brown_mushroom": {
+         "textures": ["textures/blocks/brown_mushroom"]
+      },
+      "brown_mushroom_pot": {
+         "textures": ["textures/blocks/brown_mushroom_pot"]
+      },
+      "brown_mushroom_top": {
+         "textures": ["textures/blocks/brown_mushroom_top"]
+      },
+      "brown_mushroom_side": {
+         "textures": ["textures/blocks/brown_mushroom_side"]
+      },
+      "brown_mushroom_side_pot": {
+         "textures": ["textures/blocks/brown_mushroom_side_pot"]
+      },
+      "red_mushroom": {
+         "textures": ["textures/blocks/red_mushroom"]
+      },
+      "red_mushroom_pot": {
+         "textures": ["textures/blocks/red_mushroom_pot"]
+      },
+      "red_mushroom_top": {
+         "textures": ["textures/blocks/red_mushroom_top"]
+      },
+      "red_mushroom_side": {
+         "textures": ["textures/blocks/red_mushroom_side"]
+      },
+      "red_mushroom_side_pot": {
+         "textures": ["textures/blocks/red_mushroom_side_pot"]
+      },
+      "none": {
+         "textures": ["textures/blocks/none"]
+      }
+   }
+}
